@@ -1,3 +1,12 @@
+# Guide tutorial
+
+Accessing client-service:
+
+```shell
+minikube service --url client-service
+curl http://ip:30083/
+```
+
 ## Spring Cloud Kubernetes
 
 This module contains articles about Spring Cloud Kubernetes.
